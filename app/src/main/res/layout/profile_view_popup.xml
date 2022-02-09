@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="30dp"
+    android:orientation="vertical"
+    android:background="@drawable/alert_dialog_bg"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp">
+
+    <LinearLayout
+        android:id="@+id/pstnCallLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="30dp"
+        android:gravity="center_vertical">
+        <!--  android:background="?android:attr/selectableItemBackground"-->
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:id="@+id/alrem"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:text="Set Alarm"
+            android:textSize="18sp"
+            android:textColor="@color/black"  />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/appCallLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="30dp"
+
+
+        android:gravity="center_vertical">
+        <!--   android:background="?android:attr/selectableItemBackground"-->
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"  />
+
+        <TextView
+            android:id="@+id/view_doc"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="View the document "
+            android:textColor="@color/black"  />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/appCallLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="30dp"
+
+
+        android:gravity="center_vertical">
+        <!--   android:background="?android:attr/selectableItemBackground"-->
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"  />
+
+        <TextView
+            android:id="@+id/print_pdf"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="Print PDF"
+            android:textColor="@color/black"  />
+    </LinearLayout>
+</LinearLayout>

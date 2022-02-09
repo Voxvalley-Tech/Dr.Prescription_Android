@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Dr.Prescription App</string>
+    <string name="last_name">Surname is required!</string>
+    <string name="first_name">You must enter first name to register!</string>
+    <string name="app_designation">Designation name is must be required!</string>
+    <string name="clinic_name">Password is must be required!</string>
+    <string name="clinic_address">Clinic Address is must be required!</string>
+    <string name="number">Must enter valid mobile number</string>
+    <string name="sources_url" translatable="false">https://github.com/pelya/android-print-plugin-cups</string>
+    <string name="google_play_url" translatable="false">https://play.google.com/store/apps/details?id=org.cups.android</string>
+    <string name="add_printer_scheme" translatable="false">printer</string>
+    <string name="add_printer_host" translatable="false">printer.add</string>
+    <string name="error_job_disappeared">Print job took too long or printer was deleted</string>
+</resources>

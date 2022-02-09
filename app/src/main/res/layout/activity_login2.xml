@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Point of care "
+        android:textColor="#3a78c1"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="#E6E6ED" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Welcome to Dr.Prescription"
+        android:textColor="#1a1a1a"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="13dp"
+        android:gravity="center"
+        android:text="Sign in or register to find the best way your work make happy"
+        android:textColor="#958C8C"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/rectangle"
+        android:orientation="vertical">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/emailInputLayout"
+            android:hint="Email"
+            app:startIconDrawable="@drawable/ic_baseline_email_24"
+            app:counterEnabled="true"
+            app:endIconMode="clear_text"
+            app:layout_constraintEnd_toEndOf = "parent"
+            app:layout_constraintStart_toStartOf = "parent"
+            app:layout_constraintTop_toTopOf = "parent">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/passwordInputLayout"
+            android:hint="Password"
+            app:startIconDrawable="@drawable/ic_baseline_lock_24"
+
+            app:counterEnabled="true"
+            app:counterMaxLength="4"
+            app:endIconMode="password_toggle"
+            app:helperText="A12@"
+            app:layout_constraintEnd_toEndOf = "parent"
+            app:layout_constraintStart_toStartOf = "parent"
+            app:layout_constraintTop_toTopOf = "parent">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password"
+                android:maxLength="4"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/button_gradient"
+            android:text="login"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:padding="10dp"
+            android:background="@drawable/item_click_bg_normal"
+            android:text="create account"
+            android:textColor="@color/button"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/skipnoew"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:visibility="visible"
+            android:padding="10dp"
+            android:background="@drawable/item_click_bg_normal"
+            android:text="skip now"
+            android:textColor="@color/button"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</LinearLayout>

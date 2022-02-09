@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:text="Create a New Acount"
+        android:textColor="@color/purple_200"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/item_click_bg_hover"
+        android:ems="10"
+        android:hint="First Name "
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/item_click_bg_hover"
+        android:ems="10"
+        android:hint="Last name"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/designation"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/item_click_bg_hover"
+        android:ems="10"
+        android:hint="Designation"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/clinic"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/item_click_bg_hover"
+        android:ems="10"
+        android:hint="Clinic Name"
+        android:inputType="text"
+        android:padding="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/clinic_address"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lastName" />
+
+    <EditText
+        android:id="@+id/clinic_address"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/item_click_bg_hover"
+        android:ems="10"
+        android:hint="Clinic Address"
+        android:inputType="text"
+        android:padding="10dp"
+        />
+    <EditText
+
+        android:id="@+id/mobile_number"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/item_click_bg_hover"
+        android:ems="10"
+        android:hint="Mobile Number"
+        android:inputType="number"
+        android:padding="10dp"
+        />
+    <Button
+        android:id="@+id/buttonAcount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        />
+
+
+</LinearLayout>
